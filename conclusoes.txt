@@ -1,0 +1,8 @@
+o primeiro passo e instalar 3 pacotes para criar um servidor http
+nunca esquecer de digitar --save apos a instalação de qualquer modulo
+isso serve pra salvar o nome dele no package-lock
+ 
+1 - http 
+2 - express
+3 - debug
+
