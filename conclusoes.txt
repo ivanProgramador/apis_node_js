@@ -6,3 +6,31 @@ isso serve pra salvar o nome dele no package-lock
 2 - express
 3 - debug
 
+-----------------------------------------
+nunca fixe a porta onde o aplicativo vai rodar porque se no servidor onde ela esta 
+hospedada essa porta estiver em uso vai dar problema.por isso é interessando usar uma função 
+para normalização de porta.
+---------------------------------------------------------
+separar o arquivo de 'app' do servidor é uma boa pratica 
+
+tudo que foor referente aoo app em si  como 
+-rota 
+-resposta 
+-framework 
+são partes que comepoem oo aplicativoo em si e oque dá a reposta da requisição 
+o arquivo 'server' que contem as configurações do servidor que vai servir o app para o cliente 
+fica com 
+- funçoes de noormalização de porta 
+- funçoes de tratamento de erro 
+- função de requisição do arquivo que esta o app
+- funçoes que colocam o servidor online de fato  
+
+a separação fisica dessas funções em arquivos diferentes e essecial para uma boa organização do codigo.
+-----------------------------------------------------------------
+
+
+
+
+
+
+
