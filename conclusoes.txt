@@ -28,6 +28,30 @@ fica com
 a separação fisica dessas funções em arquivos diferentes e essecial para uma boa organização do codigo.
 -----------------------------------------------------------------
 
+macete 
+o comando 
+
+--save-dev-
+
+so deve ser usado para dependencias que não vão pra produção que são usadas somente dentro do ambiente de desenvolvimmento 
+para testes comop por exemplo o nodemon que fica escutando as alaterações feitas nos arquivos e reinicia o servidor de forma automatica 
+o jeito certo de instalar o nodemon
+
+npm install -g nodemon
+
+o jeito certo de usar 
+
+nodemon ./server.js
+
+-------------------------------------------------------------------
+
+
+
+
+
+
+
+
 
 
 
