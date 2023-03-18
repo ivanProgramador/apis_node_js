@@ -44,6 +44,31 @@ o jeito certo de usar
 nodemon ./server.js
 
 -------------------------------------------------------------------
+CRUD via api 
+
+Não é um boa pratica colocar os metodos dessas forma '/create', '/post'
+a definição do metodo que vai ser executando é assim: 
+é ujk metodo que sai da classe post
+
+const create = router.post('/',(req,res,next)=>{
+
+    res.status(200).send();
+});
+
+requisições do tipo post são para enviar dados para a api
+quando uma requisição dessas é feita temos que configurar o tipo de dado que vai ser 
+enviado, normalmente se envia um JSON para um a api e ele tem que receber e converter esse json pra pegar os dados 
+usando o Body parser.
+
+
+O bodyParser funciona como midware que pega as resuisições de put que vem e transforma em json o corpo da reiquisição.
+
+operações como put e delete precisam do id pra saber oque elas vão deletar ou alterar
+
+
+
+
+
 
 
 
