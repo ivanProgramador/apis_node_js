@@ -65,6 +65,15 @@ O bodyParser funciona como midware que pega as resuisições de put que vem e tr
 
 operações como put e delete precisam do id pra saber oque elas vão deletar ou alterar
 
+-------------------------------------------------------------------------------------
+Estrutura da api 
+ -quem fica com os metodos get, put, post, delete e a propria entidade, essa é uma api de produtos
+  então o proprio arquivo product route fica com esses metodos quem aciona eles eo app quando necessario 
+  o cliente pede pra ver a lista de produtos. 
+  - o app chama o arquivo product-route, busca pelo metodo get e aciona a função
+
+
+
 
 
 
