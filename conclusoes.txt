@@ -72,6 +72,12 @@ Estrutura da api
   o cliente pede pra ver a lista de produtos. 
   - o app chama o arquivo product-route, busca pelo metodo get e aciona a função
 
+CODIGO REFATORADO
+---------------------------------------------------------------------------------------------
+Eu adicionei um controller agora toda a responsabilidade de req res esta no controller a unica coisa que o app vai fazer é 
+adimnistrar as rotas as funções principais vaõa ficar no controller mesmo assim o codigo fica mais limpo.
+
+
 
 
 
