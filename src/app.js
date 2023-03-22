@@ -6,6 +6,11 @@ const bodyParser = require('body-parser');
 
 const app = express();
 const router = express.Router();
+const mongoose = require('mongoose'); 
+
+//conectando ao banco de dados 
+
+mongoose.connect('mongodb://localhost:27017');
 
 //carregando as rotas
 

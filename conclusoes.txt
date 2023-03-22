@@ -77,6 +77,21 @@ CODIGO REFATORADO
 Eu adicionei um controller agora toda a responsabilidade de req res esta no controller a unica coisa que o app vai fazer é 
 adimnistrar as rotas as funções principais vaõa ficar no controller mesmo assim o codigo fica mais limpo.
 
+USANDO MONGO DB 
+--------------------------------------------------------------------------------------------
+O mongo db é uma coleção de objetos, ele guarda registros como um banco relacional
+no caso um objeto pode ter um dado ou pode não ter isso não vai causar um conflito 
+no momento do armazenamento dele na colection.
+
+A responsabilidade de enviar os dados corretos fica sendo da aplicação.
+-------------------------------------------------------------------------------------------------------
+instalando mongoose
+
+ npm install mongoose --save
+ ---------------------------------------------------------------------
+ 
+
+
 
 
 
