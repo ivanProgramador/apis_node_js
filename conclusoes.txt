@@ -89,7 +89,11 @@ instalando mongoose
 
  npm install mongoose --save
  ---------------------------------------------------------------------
- 
+ Schema no Mongo db 
+   O mongo db embora seja um banco não relacional ele pode usar schemas para padronizar
+   os dados que vão ser entregues pela requisição.
+------------------------------------------------------------------------
+
 
 
 
